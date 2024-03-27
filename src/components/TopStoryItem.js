@@ -66,9 +66,9 @@ function TopStoryItem() {
           }}
         >
           <div
-            className="topStory-item"
+            className="topStory-image"
             style={{
-              backgroundImage: `url(https://apparticleimages.s3.us-east-2.amazonaws.com/${topStories[currentStoryIndex].article_id}.jpg)`,
+              backgroundImage: `url(https://mktnewsposters.s3.us-east-2.amazonaws.com/${topStories[currentStoryIndex].article_id}.jpg)`,
             }}
           >
             {loading ? (
